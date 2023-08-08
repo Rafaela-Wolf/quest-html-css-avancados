@@ -1,0 +1,47 @@
+@media(max-width: 576px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: auto;
+    }
+
+    .header {
+        align-self: flex-start;
+        max-height: 30px;
+    }
+
+    .ilustracao {
+        max-height: 200px;
+    }
+
+    .ilustracao img {
+        max-width: 300px;
+        justify-content: center;
+    }
+
+    .registro {
+        text-align: center;
+        max-height: 200px;
+    }
+
+    .registro h1 {
+        font-size: 2.5rem;
+    }
+    
+    .registro p {
+        font-size: 1.5rem;
+    }
+
+    .registro a {
+        font-size: 1.5rem;
+        color: #000;
+        align-self: center;
+        background-color: #fff;
+    }
+
+    .footer {
+        max-height: 30px;
+    }
+}
