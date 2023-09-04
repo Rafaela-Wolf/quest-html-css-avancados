@@ -1,29 +1,25 @@
-@media(max-width: 576px) {
+@media(max-width: 768px) {
     body {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         padding: auto;
+        background: url('../images/bg-mobile.svg') center center no-repeat;
+        background-color: var(--primary-violet);
     }
 
     .header {
         align-self: flex-start;
-        max-height: 30px;
-    }
-
-    .ilustracao {
-        max-height: 200px;
     }
 
     .ilustracao img {
-        max-width: 300px;
+        width: 100%;
         justify-content: center;
     }
 
     .registro {
         text-align: center;
-        max-height: 200px;
     }
 
     .registro h1 {
@@ -39,9 +35,5 @@
         color: #000;
         align-self: center;
         background-color: #fff;
-    }
-
-    .footer {
-        max-height: 30px;
     }
 }

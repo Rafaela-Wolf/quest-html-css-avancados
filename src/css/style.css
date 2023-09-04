@@ -1,6 +1,7 @@
 html {
     font-size: 62.5%;
     overflow: hidden;
+    max-width: 1440px;
 }
 
 body {
@@ -74,33 +75,34 @@ body {
     padding: 10px 50px;
     margin-top: 15px;
 }
+
 .registro a:hover {
-    box-shadow: 7px 6px 30px 13px rgba(0,0,0,0.71);
+    box-shadow: 7px 6px 30px 13px rgba(0,0,0,0.2);
 }
 
 .footer {
     grid-area: footer;
     display: flex;
     justify-content: flex-end;
-    margin: 40px;
-    max-height: 20px;
+    margin: 30px;
 }
 
-.footer .social {
+ul {
     display: flex;
-    justify-content: center;
 }
 
-.footer a .fab {
+.footer .social li .fab {
     color: #fff;
     font-size: 1.5rem;
-    margin: 8px;
     border: 2px solid #fff;
     border-radius: 50%;
+    text-align: center;
+    margin: 8px;
     padding: 8px;
+
 }
 
-.footer .fab:hover {
+.footer .social .fab:hover {
     color: var(--primary-pink);
     border-color: var(--primary-pink);
 }
